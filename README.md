@@ -22,3 +22,6 @@ This set of scripts simulates a bottom-driven cavity flow in 2D using an approxi
 3. In the command line, enter the following block with custom argument values replacing the bracketed term:
 `python main.py --grid_size={GRID_SIZE} --flow_speed={FLOW_SPEED} --viscosity={VISCOSITY} --CFL={CFL} --model_time={MODEL_TIME} --timestep_method={TIMESTEP_METHOD} --spatial_discretization={SPATIAL_DISCRETIZATION} --plots={PLOTS} --save_data={SAVE_DATA}`
 4. Metadata will print to the console. If selected, plots and Numpy numeric data will save to their respective directories.
+
+
+ ![field_plot-Re_10-N_150](https://github.com/Joejoe12341234/NumericalAlgor/assets/86720316/c8946a98-a4db-47d1-a09d-ec10bd39706b)
