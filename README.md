@@ -1,5 +1,5 @@
 ## APC523-AST523-MAE507-CSE523_S2024 Numerical Algorithms for Scientific Computing: Final Project
-__Authors__: Joseph Lockwood and Gabriel Rios (gr7610) \
+__Authors__: Joseph Lockwood \
 __Location on `adroit`__: `/home/gr7610/apc_523/APC523_final`
 
 ### Summary
