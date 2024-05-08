@@ -6,6 +6,7 @@ __Location on `adroit`__: `/home/gr7610/apc_523/APC523_final`
 This set of scripts simulates a bottom-driven cavity flow in 2D using an approximation of the Navier-Stokes equations. This model is run using `main.py` from the command line. This model has options for grid size, flow speed, flow viscosity, target Courant-Friedrich-Lewy number, model runtime, the temporal and spatial discretization methods, and gives the user the option to output plots for a given model time and NumPy arrays.
 
 ### Model options
+
 - Grid size (`grid_size`): ranges from 5 to 150 (not tested above 150), this controls the timestep in conjunction with `cfl`
 - Flow speed (`flow_speed`): ranges from 0 to 100 (not tested above 100), this controls the perturbation flow speed at the cavity edge (in m/s)
 - Viscosity (`viscosity`): ranges from 0 to 1 (not tested above 1), this controls fluid viscosity (in m^2/s)
@@ -16,6 +17,9 @@ This set of scripts simulates a bottom-driven cavity flow in 2D using an approxi
 - Print plots (`plots`): options are `True` or `False`, prints to the `figs` subdirectory
 - Save Numpy data (`save_data`): options are `True` or `False`, outputs field data (velocities and pressure) to the `assets` subdirectory
 
+![domain](https://github.com/Joejoe12341234/NumericalAlgor/assets/86720316/277c3ef6-7e62-4bec-b066-a781d599a475)
+
+
 ### Instructions for `adroit`
 1. Load the Python environment for `adroit`: `module load anaconda3/2024.2`
 2. Determine the parameter ranges from the options set above. Default parameters are allowed if one wants to run a default case.
@@ -24,4 +28,5 @@ This set of scripts simulates a bottom-driven cavity flow in 2D using an approxi
 4. Metadata will print to the console. If selected, plots and Numpy numeric data will save to their respective directories.
 
 
- ![field_plot-Re_10-N_150](https://github.com/Joejoe12341234/NumericalAlgor/assets/86720316/c8946a98-a4db-47d1-a09d-ec10bd39706b)
+ ![field_plot-Re_10-N_150](https://github.com/Joejoe12341234/NumericalAlgor/assets/86720316/c8946a98-a4db-47d1-a09d-ec10bd39706b)![field_plot-Re_1000-N_150](https://github.com/Joejoe12341234/NumericalAlgor/assets/86720316/babbe21e-1ec7-4e27-8e19-5cff0d5d157b)
+
